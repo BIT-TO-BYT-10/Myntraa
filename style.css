@@ -59,13 +59,10 @@
 
 }
 #logo {
-    /* display: flex; */
     margin-top: -20px;
     width: 70px;
     border-radius: 10px;
     height: 60px;
-    /* padding-bottom: 40px; */
-    /* padding-top: -40px; */
 }
 .heading ul li input {
     background-color: rgb(250, 245, 245);
@@ -115,41 +112,93 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-/* .image1{
-    margin-top: -90px;
-    margin-left : -200px; 
-    margin-right: -10px;
-    display: block;
+ }
+ .container3 {
     width: 100%;
-    border-radius: 20px;
-    margin-bottom: -250px;
-}
-
-.image2{
-    margin-top: 20px;
-    margin-left : 20px;
-    margin-inline-start: 20px; 
-    display: block;
-    width: 100%;
-    border-radius: 30px;
-}
-  .image:hover{
-    transform:matrix(32);
-    z-index: 2;
-  }
-  .image1:hover{
-    transform:matrix(32);
-    z-index: 2;
-  } */
-
-  .image a img {
-    box-shadow: 10px 10px 10px rgb(90, 132, 239);
-    width: 180px;
-    margin: 10px;
-  }
-
-  /* .image a {
-    display: flex;
+    justify-content: center;
     align-items: center;
-  } */
+ }
+ .container3 div video {
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: -50px;
+ }
+ .ads {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    float: left;
+}
+.image a img {
+  box-shadow: 10px 10px 10px rgb(90, 132, 239);
+  width: 180px;
+  margin: 10px;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+.cont{
+    max-width:1170px;
+    background-color:#24262b;
+    margin:auto;
+    padding-top:50px;
+    padding-left:40px;
+    padding-bottom:50px;
+}
+.footer-col{
+    width: 25%;
+}
+.footer{
+    background-color:#24262b;
+}
+.footer-col h4{
+    text-decoration: underline;
+    font-size:18px;
+    color:#ffffff;
+    text-transform:capiatlize;
+    margin-bottom: 30px;
+}
+
+.footer-col ul li a{
+    margin:5px;
+    padding:5px;
+    font-size:16px;
+    text-transform: capitalize;
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:300;
+    color:#bbbbbb;
+    display:block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left:20px;
+}
+.footer-col .so a {
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    background-color:rgba(255,255,255,0.2);
+    margin:0,10px,10px,0;
+    text-align:center;
+    line-height: 40px;
+    border-radius:50%;
+    color:#ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .so a:hover{
+    color: #24262b;
+    background-color:yellow;
+}
+/**dekh lo responsive h ki nhi ab */
+@media(max-width:767px){
+    .footer-col{
+        width:25%;
+        margin-bottom: 30px;
+    }
+}
